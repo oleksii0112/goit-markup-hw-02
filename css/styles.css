@@ -30,12 +30,12 @@ ul, ol {
     color: #4d5ae5
 }
 
-.footer-logo span{
+.footer-logo .logo-part{
     color: #F4F4FD
 
 }
 
-.header-logo span {
+.header-logo .logo-part {
     color: #2E2F42
 }
 
@@ -47,8 +47,8 @@ ul, ol {
     color: #2e2f42;
 }
 
-.nav-menu-home:hover,
-.nav-menu-home:focus {
+.nav-menu:hover,
+.nav-menu:focus {
     color: #404bbf;
 }
 
@@ -81,7 +81,7 @@ ul, ol {
 }
 
 .hero-button {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -93,7 +93,7 @@ ul, ol {
 
 .hero-button:hover,
 .hero-button:focus {
-    color:#404BBF
+    background-color:#404BBF
 }
 
 .section-title {
@@ -117,7 +117,7 @@ ul, ol {
     background-color: #f4f4fd;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF
 }
 
