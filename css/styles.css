@@ -1,10 +1,14 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #fafafa;
+    background-color: #FFFFFF;
+}
+
+address {
+    font-style: normal
 }
 
 a {
@@ -17,21 +21,22 @@ ul, ol {
 }
 
 .logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5
 }
 
-.footer-logo {
-    color: #f4f4fd;
+.footer-logo span{
+    color: #F4F4FD
 
 }
 
-.logo span {
-    color: #4d5ae5;
+.header-logo span {
+    color: #2E2F42
 }
 
 .nav-menu{
@@ -40,6 +45,11 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.nav-menu-home:hover,
+.nav-menu-home:focus {
+    color: #404bbf;
 }
 
 .contacts-list {
@@ -51,6 +61,12 @@ ul, ol {
     font-style: normal;
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf
+}
+
+
 .hero-section {
     background-color: #2e2f42;
     text-align: center;
@@ -59,25 +75,32 @@ ul, ol {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
 }
 
 .hero-button {
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    background-color: #4d5ae5;
-     
+    background-color: #4d5ae5; 
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color:#404BBF
 }
 
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    text-transform: capitalize;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -88,6 +111,14 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-list {
+    background-color: #FFFFFF
 }
 
 .team .section-subtitle,
